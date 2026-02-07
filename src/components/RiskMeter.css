@@ -1,0 +1,62 @@
+.risk-meter-container {
+    padding: var(--space-lg);
+    text-align: center;
+}
+
+.risk-meter-title {
+    margin-bottom: var(--space-md);
+    color: var(--color-text);
+    font-size: 1.25rem;
+}
+
+.risk-meter-visual {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: var(--space-md) 0;
+}
+
+.risk-meter-progress {
+    transform: rotate(-90deg);
+    transform-origin: 120px 120px;
+    transition: stroke-dashoffset 1s ease-in-out, stroke 0.3s ease;
+}
+
+.risk-meter-value {
+    font-size: 3rem;
+    font-weight: 700;
+    transition: fill 0.3s ease;
+}
+
+.risk-meter-label {
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.risk-level-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.75rem 1.5rem;
+    border-radius: var(--radius-full);
+    color: white;
+    font-weight: 600;
+    font-size: 1.125rem;
+    margin-top: var(--space-md);
+    box-shadow: var(--shadow-md);
+    animation: fadeIn 0.5s ease 0.3s backwards;
+}
+
+.risk-level-icon {
+    font-size: 1.5rem;
+}
+
+.risk-level-text {
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+.uncertainty-indicator {
+    margin-top: var(--space-md);
+    animation: fadeIn 0.5s ease 0.5s backwards;
+}

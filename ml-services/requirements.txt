@@ -1,0 +1,48 @@
+# Core FastAPI and Web Framework
+fastapi>=0.104.0
+uvicorn>=0.24.0
+pydantic>=2.5.0
+python-multipart
+
+# Machine Learning - PyTorch
+torch>=2.1.0
+torchvision>=0.16.0
+
+# Machine Learning - TensorFlow (NOT SUPPORTED in Python 3.14)
+# tensorflow>=2.15.0
+# keras>=2.15.0
+
+# Transformers and NLP
+transformers>=4.38.0
+# sentence-transformers>=2.2.0  <-- Often causes issues on fresh installs, better to rely on direct torch/transformers if possible or install carefully
+sentence-transformers>=2.2.0
+tokenizers>=0.15.0
+nltk>=3.8.0
+spacy
+
+# Vector Database
+chromadb>=0.4.18
+
+# Data Processing
+numpy>=2.1.0
+pandas>=2.2.0
+scipy>=1.13.0
+scikit-learn>=1.4.0
+
+# Time Series Analysis
+statsmodels>=0.14.0
+prophet>=1.1.5
+
+# HTTP Client
+httpx>=0.25.0
+requests>=2.31.0
+
+# Utilities
+python-dotenv>=1.0.0
+tqdm>=4.66.0
+colorama>=0.4.6
+
+# Additional ML utilities
+matplotlib>=3.8.0
+seaborn>=0.13.0
+
