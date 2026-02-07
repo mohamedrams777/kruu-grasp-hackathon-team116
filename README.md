@@ -115,8 +115,12 @@ Similarity score to known false narratives
 Evidence confidence (High/Medium/Low)
 Similar historical claims
 Contradictory source indicators
+
+
 🏗️ Architecture
 <img width="649" height="331" alt="image" src="https://github.com/user-attachments/assets/b7d44759-de6a-4058-af7c-7951b0432440" />
+
+
 
 HTTP POST /api/analyze
 Parallel Requests
